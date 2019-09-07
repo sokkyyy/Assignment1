@@ -1,6 +1,6 @@
-html, 
+html,
 body
- { 
+ {
   height: 100%;
   margin-left: 7px;
   margin-right: 7px;
@@ -16,7 +16,7 @@ body
 
 .company-logo {
   float: left;
-  padding-left: 40px; 
+  padding-left: 40px;
 }
 .header {
   width:100%;
@@ -66,12 +66,46 @@ body
   left:50%;
 }
 
+.products {
+  height: 100%;
+}
+.products-bar {
+  height: 20%;
+  background-color: white;
+  display: flex;
+
+}
+.products-checkbox {
+  width: 50%;
+  height: 50px;
+  padding-left: 90px;
+  padding-top: 50px;
+}
+.products-button {
+  width: 50%;
+  height: 50px;
+  padding-left: 300px;
+  padding-top: 40px;
+}
+.products-button button {
+  background-color: #d45206; /* Green */
+  border: none;
+  color: white;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
 .about-us {
   height:60%;
   background-image: url("../assets/backgrounds/about.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  
+
 }
 
 .about-border {
@@ -101,7 +135,7 @@ body
 }
 .twitter-bird {
   margin-left: 30px;
-  
+
 }
 .promo-message {
   color: white;
@@ -116,7 +150,7 @@ body
   color:white;
   font-size: 18px;
   padding: 50px;
-  
+
 }
 [footer-content] h5 {
   padding-left: 10px;
@@ -145,4 +179,7 @@ body
 [border-right] {
   border-right: 1px solid white;
   padding-right: 20px;
+}
+[copyright] {
+  color: white;
 }
