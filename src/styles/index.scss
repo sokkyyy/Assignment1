@@ -67,13 +67,12 @@ body
 }
 
 .products {
-  height: 100%;
+  height: 200%;
 }
 .products-bar {
-  height: 20%;
-  background-color: white;
+  height: 10%;
+  background-color: rgb(186, 247, 215);
   display: flex;
-
 }
 .products-checkbox {
   width: 50%;
@@ -88,7 +87,7 @@ body
   padding-top: 40px;
 }
 .products-button button {
-  background-color: #d45206; /* Green */
+  background-color: #d45206; 
   border: none;
   color: white;
   width: 200px;
@@ -98,6 +97,71 @@ body
   display: inline-block;
   font-size: 16px;
 }
+
+.products-category {
+  height: 100%;
+  background-color: white;
+}
+
+.men {
+  position: relative;
+  font-size: 30px;
+  display: block;
+  padding-left: 50px;
+  padding-top: 60px;
+}
+.men:after {
+  content:"";
+  position: absolute;
+  bottom: 0;
+  margin-left: 20px;
+  height: 20px;
+  border-top: 1px solid gray;
+  width: 85%;
+  align-content: center;
+}
+.product-columns {
+  display: flex;
+  padding-left: 70px;
+}
+[productbox] {
+  background-color: bisque;
+  
+  margin: 40px;
+}
+
+[productImage] {
+  height: 70%;
+  padding-left: 70px;
+  padding-top: 10px;
+}
+[productImageWomen] {
+  height: 70%;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.prod-description{
+  color: rgb(110, 103, 92);
+  display: block;
+  padding-top: 50px;
+  float: left;
+}
+.prod-price {
+  display: block;
+  color: rgb(110, 103, 92);
+  padding-top: 50px;
+  float: right;
+
+}
+.women {
+  position: relative;
+  font-size: 30px;
+  display: block;
+  padding-right: 50px;
+  float:right
+  
+}
+
 
 
 .about-us {
