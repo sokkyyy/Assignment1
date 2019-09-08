@@ -46,7 +46,7 @@
       <div class="products-checkbox">
       
         <div class="custom-control custom-checkbox custom-control-inline">
-          <input type="checkbox" class="custom-control-input" id="defaultInline1">
+          <input type="checkbox" class="custom-control-input" id="defaultInline1" checked >
           <label class="custom-control-label" for="defaultInline1">MEN</label>
         </div>
 
@@ -63,7 +63,7 @@
       </div>
 
       <div class="products-button">
-        <button>SEE ALL PRODUCTS</button>
+        <button id='btn'>SEE ALL PRODUCTS</button>
       </div>
     </div>
 
@@ -71,7 +71,7 @@
 
     <div class="products-category">
 
-      <div class="products-men">
+      <div class="products-men" id="mensProducts">
         <span class="men">MEN</span>
         <br><br>
         <div class="product-columns">
@@ -93,15 +93,12 @@
             <span class="prod-description">BACKPACK</span>
             <span class="prod-price">60,00&euro;</span>
           </div>
+        </div>
       </div>
 
 
 
-      </div>
-
-
-
-      <div class="products-women">
+      <div class="products-women" id="womenProducts">
           <span class="women">WOMEN</span>
           <br><br>
 
@@ -127,8 +124,9 @@
           </div>
       </div>
 
-      <div class="products-children">
-          
+      <div class="products-children" id="childrenProducts">
+        <span class="children">CHILDREN</span>
+        <br><br>
       </div>
 
     </div>
@@ -198,6 +196,8 @@
     </div>
   </footer>
   <!-- Footer -->
+
+  
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
